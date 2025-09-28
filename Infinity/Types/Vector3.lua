@@ -1,0 +1,22 @@
+---@diagnostic disable: missing-return
+---@class Vector3
+---@field X number
+---@field Y number
+---@field Z number
+---@field Add fun(self: Vector3, other: Vector3):Vector3
+---@field Sub fun(self: Vector3, other: Vector3):Vector3
+---@field Mult fun(self: Vector3, factor: number):Vector3
+---@field Lerp fun(self: Vector3, other: Vector3, factor: number):Vector3 Linear interpolation
+---@field getDistance fun(self: Vector3, other: Vector3):number
+---@field getDistance2D fun(self: Vector3, other: Vector3):number
+---@field getDistanceXY fun(self: Vector3, other: Vector3):number
+---@field getDirectionVector fun(self: Vector3, other: Vector3):Vector3
+---@field getRotationToFace fun(self: Vector3, other: Vector3):number
+---@field flipYZ fun(self: Vector3)
+---@field getHash fun(self: Vector3):number
+---@param x number
+---@param y number
+---@param z number
+---@return Vector3
+function Vector3(x, y, z)
+end
