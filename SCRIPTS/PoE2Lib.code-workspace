@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "Lua.workspace.library": [
+            "../../../Core/scripts",
+            "../Documentation",
+        ],
+        "Lua.completion.autoRequire": true,
+        "Lua.format.enable": true,
+        "Lua.diagnostics.libraryFiles": "Enable",
+        "cSpell.words": [
+            "Bonestorm"
+        ],
+    }
+}
